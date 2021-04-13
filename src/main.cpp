@@ -26,14 +26,14 @@ int main() {
         return -1;
     }
 
-    SDL_Texture *texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ABGR8888, SDL_TEXTUREACCESS_STREAMING, WIN_WIDTH, WIN_HEIGHT);
+    SDL_Texture *texture = SDL_CreateTexture(renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, WIN_WIDTH, WIN_HEIGHT);
     if (texture == NULL) {
         std::cout << "Failed to create window: " << SDL_GetError() << std::endl;
         return -1;
     }
 
     /* start map */
-    Gamestate state{dungeon1};
+    Gamestate state{dungeon0};
     /* player init position */
     Player player{300, 300, 50, 5};
     /* draw initial map */
