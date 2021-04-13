@@ -1,5 +1,5 @@
 #include "../include/movement.hpp"
-
+// edit from portal collision
 bool collision(Framebuffer &fb, Player &p, Gamestate &s, size_t x, size_t y) {
 
     if (s.map[x+(y*map_w)] != ' ') {
