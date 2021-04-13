@@ -1,4 +1,4 @@
-name: roguelike CI
+name: CI
 
 on:
   push:
