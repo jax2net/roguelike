@@ -5,7 +5,6 @@
 
 struct Gamestate {
     const char *map;
-    void update(const char *map);
 };
 
 #endif
