@@ -32,7 +32,7 @@ int main() {
         return -1;
     }
 
-    /* start map */
+    /* Start Map */
     Gamestate state{dungeon0};
     /* player init position */
     Player player{300, 300, 50, 5};
