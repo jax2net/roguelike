@@ -8,7 +8,7 @@
 #include "../include/gamestate.hpp"
 #include "dungeons.hpp"
 
-// ya know just testing git stuff mane
+// testing ssh
 
 int main() {
 
